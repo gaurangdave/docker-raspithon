@@ -1,9 +1,6 @@
 FROM resin/raspberry-pi-python:latest
 ENTRYPOINT []
 
-# Create aarnam directory
-# WORKDIR /usr/src/aarnam
-
 # Upgrade PIP
 RUN pip install --upgrade pip
 
