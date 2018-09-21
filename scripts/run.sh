@@ -1,0 +1,1 @@
+docker run -v /home/pi/apps/raspithon/src:/usr/src/aarnam -t gaurangvdave/raspithon:latest
