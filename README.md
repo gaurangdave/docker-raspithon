@@ -3,7 +3,7 @@
 ## How it works?
 * Create `start.py` file which will act as entry point for the python code. 
 * Create `requirements.txt` which can be empty if there are no requirements.
-* Run `docker run -v /home/pi/apps/raspithon/src:/usr/src/aarnam -t gaurangvdave/raspithon:latest`.
+* Run `docker run -v /home/pi/apps/myapps:/ -t gaurangvdave/raspithon:latest`.
 * Add `-p 3000:3000` if container is a python server.
 * In above command `/home/pi/apps/raspithon/src` represents the source directory of python code. 
 
